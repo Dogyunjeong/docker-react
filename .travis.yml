@@ -6,7 +6,7 @@ services:
 
 before_install:
   # This tag will only being used in the travis instance 
-  - docekr build -t dogun098/docker-react -f Dockerfile.dev .
+  - docker build -t dogun098/docker-react -f Dockerfile.dev .
 
 # supposed to contain all command to excute
 script:
